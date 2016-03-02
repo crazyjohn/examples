@@ -1,0 +1,9 @@
+dubbo/dubbo_common/.settings/
+dubbo/dubbo_consumer/.settings/
+dubbo/dubbo_provider/.settings/
+dubbo/dubbo_common/bin/
+dubbo/dubbo_consumer/bin/
+dubbo/dubbo_provider/bin/
+dubbo/dubbo_common/logs/
+dubbo/dubbo_consumer/logs/
+dubbo/dubbo_provider/logs/
