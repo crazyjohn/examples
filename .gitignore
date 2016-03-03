@@ -7,3 +7,5 @@ dubbo/dubbo_provider/bin/
 dubbo/dubbo_common/logs/
 dubbo/dubbo_consumer/logs/
 dubbo/dubbo_provider/logs/
+dubbo/.metadata/
+dubbo/.recommenders/

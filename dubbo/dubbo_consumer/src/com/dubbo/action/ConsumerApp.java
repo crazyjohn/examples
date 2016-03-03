@@ -6,7 +6,7 @@ import com.dubbo.service.DemoService;
 
 public class ConsumerApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
 				new String[] { "consumer.xml" });
 		context.start();
@@ -15,6 +15,7 @@ public class ConsumerApp {
 		int callTimes = 10;
 		for (int i = 0; i <= callTimes; i++) {
 			// 显示调用结果
+			Thread.sleep(1000);
 			System.out.println(demoService.sayHello("world" + i));
 		}
 		context.close();
